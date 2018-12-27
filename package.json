@@ -1,0 +1,14 @@
+{
+  "name": "gmongoadmin",
+  "version": "1.0.0",
+  "repository":"git@github.com:goldfiction/gmongoadmin.git",
+  "description":"A simple db manager for mongo, similar to rockmongo.",
+  "license":"Apache-2.0",
+  "dependencies": {
+    "gqmongoose":"",
+    "gqexpress":"",
+    "async":"",
+    "lodash":"",
+    "gqcoffee":""
+  }
+}
