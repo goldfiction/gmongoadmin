@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 gmysqladmin
+    textarea#query {"key":{},"data":{}}
+    br
+    textarea#connection {"url":"mongodb://mongo:27017/","db":"test","collection":"tests"}
+    br
+    button#get(onclick="get()") get
+    button#upsert(onclick="upsert()") upsert
+    button#delete(onclick="del()") delete
+    button#clear(onclick="clear()") clear
+    br
+    textarea#result

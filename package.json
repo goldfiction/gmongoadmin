@@ -5,10 +5,8 @@
   "description":"A simple db manager for mongo, similar to rockmongo.",
   "license":"Apache-2.0",
   "dependencies": {
-    "gqmongoose":"",
-    "gqexpress":"",
-    "async":"",
-    "lodash":"",
-    "gqcoffee":""
+    "gqexpress":"1.0.1",
+    "gqcoffee":"1.0.23",
+    "gqmongodb":"1.0.0"
   }
 }
